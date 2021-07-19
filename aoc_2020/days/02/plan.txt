@@ -1,0 +1,22 @@
+Part One
+
+loop over the lines
+1-3 a: abcde
+1-3 b: cdefg
+2-9 c: ccccccccc
+for each line, parse the input.
+We have two numbers separated by a dash, a letter, and a string
+split input by lines, split each line by spaces
+split the first part by "-" and cast each as an int: min_count, max_count
+take the first character of the second part: restricted_letter
+take the third part as is: password
+
+for each password, determine if it is valid, based on the rules
+
+the rules: min_count <= Counter(password)[restricted_letter] <= max_count
+
+part 2.
+new rule: exactly one of letter at min_count and max_count must be the
+restricted letter.
+
+Your puzzle answer was 325.

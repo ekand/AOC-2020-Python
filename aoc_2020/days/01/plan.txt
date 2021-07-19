@@ -1,0 +1,5 @@
+Part One
+
+loop through pairs of numbers
+
+when two numbers sum to 2020, multiply them and return

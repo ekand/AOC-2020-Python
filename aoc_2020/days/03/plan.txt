@@ -1,0 +1,26 @@
+open squares '.' and trees '#'
+
+write to list of list
+
+data struct: list of lists; each list is list of string
+
+x is position from left to right
+y is position from top to bottom
+
+forest height and width.
+while y is within height (that 0, 1, 2, forest_width -1)
+
+slope is dx and dy with dx = 3 and dy = 1
+
+indexing forest: outer index is rows; that's y. inner index is columns. that's x.
+so indexing goes forest[y][x]
+
+remember to let x loop
+
+part 2
+
+write a function to take a slope and produce a number of trees
+
+then run the function for each of the slops in the problem description
+dx=1 and dy=1, dx=3 and dy=1, dx=5 and dy=1, dx=7 and dy=1, dx=1 and dy=2
+
